@@ -151,7 +151,7 @@ def action():
 #frst usr act
 useract = raw_input('What is your first action:')
 if useract[0:4] == 'move':
-    move(action[4:])
+    move(useract[4:])
 elif useract[0:3] == 'see':
     see1()
 elif useract[0:3] == 'use':

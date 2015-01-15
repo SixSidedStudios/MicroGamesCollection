@@ -61,7 +61,7 @@ def light1():
 
 #def main cmnds    
 def move(area):
-    movearea = area[4:]
+    movearea = area[5:]
     if movearea == 'dining room':
         room = 'dining'
         action()

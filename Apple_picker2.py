@@ -40,7 +40,7 @@ def begin():
             print 'You speak gibberish, eh?'
             begin()
     elif pick.lower() == 'crash':
-        print 'Apple_picker.py has stopped working'
+        print 'Apple_picker2.py has stopped working'
         crash()
     else:
         print "I suppose that means something..."
